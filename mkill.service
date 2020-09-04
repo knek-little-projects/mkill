@@ -1,0 +1,11 @@
+[Unit]
+Description=Kill unnecessary processes if remaining RAM is getting too low
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/bin/mkill-daemon
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

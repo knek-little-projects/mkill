@@ -1,0 +1,14 @@
+{
+  "threshold": 100000,
+  "testSleep": 1,
+  "cmdSleep": 0, 
+  "cmd": "pkill -KILL %s",
+  "args": [
+    ["google-chrome"],
+    ["code"], 
+    ["node"], 
+    ["telegram"],
+    ["python"],
+    ["python3"]
+  ]
+}
